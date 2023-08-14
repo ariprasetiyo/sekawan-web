@@ -27,13 +27,3 @@ func Error404(c *gin.Context) {
 		gin.H{},
 	)
 }
-
-func Contact(c *gin.Context) {
-	c.HTML(
-		http.StatusOK,
-		"views/contact.html",
-		gin.H{
-			"title": "Contact",
-		},
-	)
-}
