@@ -1,5 +1,11 @@
 # sekawan-web
-this service used for web sekawan app
+golang project
+
+# config & db
+1. change .env.example to .env
+2. create database sekawan_web
+3. create ACL for access db sekawan_web
+4. grant all that user for access sekawan_web
 
 # init go modul
 go mod init sekawan-web
