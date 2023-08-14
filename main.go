@@ -70,6 +70,7 @@ func main() {
 	router.LoadHTMLGlob("web/templates/*")
 
 	router.GET("/", controller.Index)
+	router.GET("/home", controller.Index)
 	router.GET("/error-404", controller.Error404)
 
 	router.Run(":" + server.HTTP_SERVER_PORT)
